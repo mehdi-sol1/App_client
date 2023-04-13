@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "myproject",
+    "slug": "myproject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "assetBundlePatterns": [
+        "fonts/*"
+      ],
+      "fonts": [
+        {
+          "fontFamily": "BostonCaps",
+          "fontFiles": [
+            "fonts/BOSTON CAPS.otf"
+          ]
+        }
+      ]
+    },
+ 
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "dependencies": {
+      "react-native-reanimated": "^2.2.0"
+      
+    },
+    "fonts": [
+      {
+        "fontFamily": "BostonCaps",
+        "fontFiles": [
+          "fonts/BOSTON CAPS.otf"
+        ]
+      }
+    ]
+  }
+}
